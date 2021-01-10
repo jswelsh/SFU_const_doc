@@ -1,11 +1,11 @@
 module.exports = {
-  title: 'Rugby',
+  title: 'SFU Rugby',
   tagline: 'Something something something SFU Rugby',
   url: 'https://test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.svg',
   organizationName: 'SFU Rugby',
   projectName: 'Constitution',
   themeConfig: {
@@ -61,31 +61,43 @@ module.exports = {
               to: 'docs/bylaws/repPlayers',
             },
           ],
-        },
-        {
-          title: 'Governing Bodies',
+        },{
+          title: 'Rugby Canada Docs',
           items: [
             {
-              label: 'BC Rugby Policies',
-              href: 'https://www.bcrugby.com/policies/',
-            },
-            {
-              label: 'Rugby Canada Policies',
-              href: 'https://rugby.ca/en/about/governance',
+              label: 'Policies Page',
+              href: 'https://rugby.ca/en/about/governance'
             },{
-              label: 'SFU Athletics Policies',
-              href: 'https://www.sfu.ca/students/recreation/contact/codes-of-conduct/sports-code-of-conduct.html',
+              label: 'By-laws',
+              href: 'https://rugby.ca/uploads/about/By-Laws/RugbyCanadaRevisedBy-lawsDev_POL_20200828.pdf'
+            },{
+              label: 'Harassment and Bullying',
+              href: 'https://rugby.ca/uploads/attachments/files/RC_Harassment_and_Bullying_Policy.pdf'
+            },{
+              label: 'Registration Refund',
+              href: 'https://rugby.ca/uploads/about/By-Laws/RegistrationRefund_DEV_POL_20200730_Final_Eng.pdf'
             }
           ],
-        },
-        {
-/*           title: 'More',
+        },{
+          title: 'BC Rugby Docs',
           items: [
             {
-              label: 'SFU Rugby Website',
-              href: 'https://sfurugby.com/',
-            },
-          ], */
+              label: 'Policies Page',
+              href: 'https://www.bcrugby.com/policies/',
+            },{
+              label: 'Constitution',
+              href: 'https://www.bcrugby.com/wp-content/uploads/2020/07/BC-Rugby-Certified-Constitution-Bylaws-Member-Approved-July10-2017.pdf',
+            },{
+              label: 'Code of Conduct',
+              href: 'https://www.bcrugby.com/wp-content/uploads/2020/07/BC-Rugby-Code-of-Conduct-Approved-Nov19-2016.pdf',
+            },{
+              label: 'Discipline Policy',
+              href: 'http://www.bcrugby.com/wp-content/uploads/2018/09/Discipline-Policy-2018-09-01.pdf',
+            },{
+              label: 'Appeals Policy',
+              href: 'https://www.bcrugby.com/wp-content/uploads/2020/07/BC-Rugby-Appeals-Policy-Approved-May-162018.pdf',
+            }
+          ],
         },
       ],
       // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
@@ -98,7 +110,6 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // editUrl: "mailto:exec-rugby@sfu.ca",
-          // Please change this to your repo.
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
