@@ -1,0 +1,21 @@
+---
+id: meetings
+title: Article II - Meetings
+sidebar_label: Meetings
+---
+
+1. An annual general meeting of the club, to be referred to as an A.G.M. in these bylaws, will be held on a date to be determined by the executive each year. All members are to be notified of the time and place of such a meeting, at least ten (10) days prior to such a meeting. The non-receipt of the notice by any member shall not invalidate the proceedings or any resolution at an A.G.M.
+2. A quorum at an A.G.M. will consist of at least twenty five percent (25%) of club members in good standing on a senior team and entitled to vote thereat. Should a quorum not be present within thirty (30) minutes of the time called, the meeting will be adjourned. The executive shall call another A.G.M. within ten (10) days and all members are to be notified. If a quorum is not present at this rescheduled A.G.M., within thirty (30) minutes of the time called, the members present shall form a quorum.
+3. The order of business at the A.G.M. shall be as follows:
+    1. the reading and confirmation of the minutes from the previous A.G.M.
+    2. report by the executive members in the following order: president, vice president, university liaison, treasurer, secretary, an event and social coordinator, men’s club representative, women’s representative, secretary, men’s fixtures, women’s fixtures, past president.
+    3. other business.
+    4. notices of motion.
+    5. election by a simple majority in order as in 3(ii), all men and women members, in good standing and attending the A.G.M., shall elect the president, vice president, the university liaison. The treasurer, an event and social coordinator, and the secretary. Male members of the club, in good standing and attending the A.G.M., shall elect the male men’s representative and the men’s fixtures. The women members of the club, in good standing and attending the A.G.M., shall elect the women’s representative and the women’s fixtures. . The past president is not elected and is automatically placed on the executive.
+    6. confirmation of the executive.
+    7. a review of the constitution to determine if any changes are necessary.
+4. An extraordinary general meeting may be called by the executive whenever they think fit or must be called within ten (10) days upon written request signed by any ten (10) members of the club in good standing. This request must be addressed to the secretary of the club, detailing the purpose for such a meeting. Notification and quorum for such a meeting shall be as that of an A.G.M. (article iimeetings-1&2.).
+5. Any member desiring to make a motion at THE A.G.M. or the extraordinary general meeting shall give notice in writing to any member of the executive ten (10) days before the date of the meeting. The secretary is required to post the notice. This motion shall be voted upon by the members present, providing there is quorum. The executive is required to abide by the results of the vote.
+6. The president, and in his/her absence the vice president, shall preside as chair of all general meetings of the club. If neither are present within thirty (30) minutes of the time called, the meeting will elect one of the executive present to take the chair for the duration of the meeting.
+7. All voting shall be open and by a show of hands. Each member in good standing and present is entitled to one vote at the A.G.M. or an extraordinary general meeting. A vote of seventy five percent (75%) is needed for a motion or vote to pass. Only duly elected executive members are allowed to vote at regular executive meetings, again each having one (1) vote. A simple majority is needed for a vote or motion to pass at regular executive meetings. The chair shall not vote. In case of an equality of votes, the chair will be entitled to a casting vote.
+8. Members who wish to stand for a position or vote for a candidate to the executive and cannot be present at the A.G.M. must submit a written proxy to the president prior to the meeting, stating his/her intentions and/ or who has his/her proxy
