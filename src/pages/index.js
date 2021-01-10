@@ -3,6 +3,7 @@ import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import useThemeContext from '@theme/hooks/useThemeContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
@@ -113,10 +114,7 @@ function ExecConstructor({name, image, position, description}) {
   return (
   <div class="avatar" className={clsx('col col--4', styles.feature)}>
     <div class="avatar">
-      <a
-        class="avatar__photo-link avatar__photo avatar__photo--lg"
-        href="https://twitter.com/dan_abramov"
-      >
+      <a class="avatar__photo-link avatar__photo avatar__photo--lg">
         <img
           alt={name.slice(0,1)}
           src={image}
@@ -140,18 +138,20 @@ function ExecConstructor({name, image, position, description}) {
 function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
+  // const {isDarkTheme, setLightTheme, setDarkTheme} = useThemeContext()
+  // console.log(isDarkTheme)
   return (
     <Layout
       // title={siteConfig.title}
       description="web application for SFU Rugby's constitution and policies">
-      <header className={clsx('hero hero--primary', styles.heroBanner)}>
+      <header className={clsx(/* 'hero hero--primary', */ styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
               className={clsx(
-                'button button--outline button--secondary button--lg',
+                `button button--outline button--${true && 'secondary'} button--lg`,
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>

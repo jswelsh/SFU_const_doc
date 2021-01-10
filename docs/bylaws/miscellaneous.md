@@ -1,7 +1,7 @@
 ---
 id: miscellaneous
 title: Article V - Miscellaneous
-sidebar_label: Miscellaneous
+sidebar_label: V - Miscellaneous
 ---
 
 1. The club shall not be used for political purposes.

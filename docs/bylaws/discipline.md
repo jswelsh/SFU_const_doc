@@ -1,7 +1,7 @@
 ---
 id: discipline
 title: Article VII - Discipline
-sidebar_label: Discipline
+sidebar_label: VII - Discipline
 ---
 
 1. Any member(s) of the club accused of not following the policies, procedures and/ or rules of the club, the British Columbia Rugby Union, the sub-union in which the club is playing will be notified of such accusations and are then subject to the following discipline proceedings:

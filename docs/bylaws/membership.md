@@ -1,7 +1,7 @@
 ---
 id: 'membership'
 title: Article I - Membership
-sidebar_label: Membership
+sidebar_label: I - Membership
 ---
 
 

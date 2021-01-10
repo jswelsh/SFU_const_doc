@@ -1,7 +1,7 @@
 ---
 id: meetings
 title: Article II - Meetings
-sidebar_label: Meetings
+sidebar_label: II - Meetings
 ---
 
 1. An annual general meeting of the club, to be referred to as an A.G.M. in these bylaws, will be held on a date to be determined by the executive each year. All members are to be notified of the time and place of such a meeting, at least ten (10) days prior to such a meeting. The non-receipt of the notice by any member shall not invalidate the proceedings or any resolution at an A.G.M.

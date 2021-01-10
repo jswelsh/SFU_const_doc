@@ -1,7 +1,7 @@
 ---
 id: finance
 title: Article IV - Finance
-sidebar_label: Finance
+sidebar_label: IV - Finance
 ---
 
 1. The club will maintain an account with any financial institution as approved by the executive.

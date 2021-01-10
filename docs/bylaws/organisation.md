@@ -1,7 +1,7 @@
 ---
 id: organisation
 title: Article III - Organisation
-sidebar_label: Organisation
+sidebar_label: III - Organisation
 ---
 
 1. The executive shall consist of a president, a vice president, a university liaison, a past president, a treasurer, a men’s representative, a women’s representative, a secretary, a men’s fixtures, a women’s fixtures and an event and social coordinator. Total eleven (11) executive. Nominations shall be made from the floor at the A.G.M. The executive shall hold office until their successors are appointed and shall retire at each A.G.M. but shall be eligible for re-election.

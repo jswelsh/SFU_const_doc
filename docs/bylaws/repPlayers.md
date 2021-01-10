@@ -1,7 +1,7 @@
 ---
 id: repPlayers
 title: Article VIII - Recognition for Representative Players
-sidebar_label: Rep-Players
+sidebar_label: VIII -Rep-Players
 ---
 
 1. Any member(s) of the club, who is deemed a member of a provincial representative team as defined in Section 3, shall have a percentage of their membership fees waived for the year following their representative season, pursuant to Section 6 hereinafter.
