@@ -3,56 +3,40 @@ import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import useThemeContext from '@theme/hooks/useThemeContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
-const features = [
-  {
-    title: 'Current Exec to go here',
-    imageUrl: 'img/logTEST.svg',
-    description: (
-      <>
-        Avatar about 64x64px and a name tag, maybe a short blurb?
-      </>
-    ),
-  },{
-    title: 'Current Exec to go here',
-    imageUrl: 'img/logTEST.svg',
-    description: (
-      <>
-        Avatar about 64x64px and a name tag, maybe a short blurb?
-      </>
-    ),
-  },{
-    title: 'Current Exec to go here',
-    imageUrl: 'img/logTEST.svg',
-    description: (
-      <>
-        Avatar about 64x64px and a name tag, maybe a short blurb?
-      </>
-    ),
-  },
-  ];
 const executive = [
   {
+    name: 'James Welsh',
+    avatar:'img/JW.svg',
+    altAvatar: 'img/altAvatar/JW.png',
+    position: 'President',
+    description: 'Committed to building a Shadow-Exec.'
+  },{
     name: 'Jessica Piotrowski',
     avatar: 'img/JP.svg',
     altAvatar: 'img/altAvatar/JP.png',
     position: 'Vice President',
     description: 'Wears the pants in this exec.',
   },{
+    name:'Lumpy Lucas',
+    avatar: 'img/LL.svg',
+    altAvatar: 'img/altAvatar/LL.png',
+    position: 'Past President',
+    description: 'Lumpy.'
+  },{
+    name:'Talor Mykle-Winkler',
+    avatar:'img/TW.svg',
+    altAvatar: 'img/altAvatar/TW.png',
+    position: 'Treasurer',
+    description: 'The first to ever be remotely qualified/competent to be treasurer.'
+  },{
     name: 'Raylene Tate',
     avatar:'img/RT.svg',
     altAvatar: 'img/altAvatar/RT.png',
     position: 'Social Coordinator',
     description: 'Had pants, Jessica took them.'
-  },{
-    name: 'James Welsh',
-    avatar:'img/JW.svg',
-    altAvatar: 'img/altAvatar/JW.png',
-    position: 'President',
-    description: 'Committed to building a Shadow-Exec.'
   },{
     name: 'Lewai Ratudradra',
     avatar:'img/LR.svg',
@@ -72,11 +56,11 @@ const executive = [
     position: 'Secretary',
     description: 'Little does she know her role entails babysitting the president and making sure they do something; anything.'
   },{
-    name:'Talor Mykle-Winkler',
-    avatar:'img/TW.svg',
-    altAvatar: 'img/altAvatar/TW.png',
-    position: 'Treasurer',
-    description: 'The first to ever be remotely qualified/competent to be treasurer.'
+    name:'Benji Wilson',
+    avatar:'img/BW.svg',
+    altAvatar: 'img/altAvatar/BW.png',
+    position: "Men's Rep",
+    description: "Hail from the opposite side of the world. Benji came for a green card; he isn't going home any time soon."
   },{
     name:'Tapiwa Samkange',
     avatar:'img/TS.svg',
@@ -84,42 +68,13 @@ const executive = [
     position: "Men's Fixtures",
     description: 'Pretty sure he is only here for the free dues and good times.'
   },{
-    name:'Benji Wilson',
-    avatar:'img/BW.svg',
-    altAvatar: 'img/altAvatar/BW.png',
-    position: "Men's Rep",
-    description: "Hail from the opposite side of the world. Benji came for a green card; he isn't going home any time soon."
-  },{
     name:'Liam Gottschalk',
     avatar:'img/LG.svg',
     altAvatar: 'img/altAvatar/LG.png',
     position: 'University Liaison',
-    description: 'To be honest, pretty sure he was forced into this position. Is this considered child labour'
-  },{
-    name:'Lumpy Lucas',
-    avatar: 'img/LL.svg',
-    altAvatar: 'img/altAvatar/LL.png',
-    position: 'Past President',
-    description: 'Lumpy.'
-  }
-
-
+    description: 'To be honest, pretty sure he was forced into this position.'
+  },
 ]
-
-function Feature({imageUrl, title, description}) {
-  const imgUrl = useBaseUrl(imageUrl);
-  return (
-    <div className={clsx('col col--4', styles.feature)}>
-      {imgUrl && (
-        <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
-        </div>
-      )}
-      <h3>{title}</h3>
-      <p>{description}</p>
-    </div>
-  );
-}
 
 function ExecConstructor({name, avatar, altAvatar, position, description}) {
   return (
@@ -148,13 +103,11 @@ function ExecConstructor({name, avatar, altAvatar, position, description}) {
 function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
-  // const {isDarkTheme, setLightTheme, setDarkTheme} = useThemeContext()
-  // console.log(isDarkTheme)
+
   return (
     <Layout
-      // title={siteConfig.title}
       description="web application for SFU Rugby's constitution and policies">
-      <header className={clsx(/* 'hero hero--primary', */ styles.heroBanner)}>
+      <header className={clsx( styles.heroBanner)}>
         <div className="container">
         <img src='img/sfu_athletic_logo_vertical_v1.1.svg'/>
           <div className={styles.buttons}>
