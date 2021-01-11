@@ -60,7 +60,7 @@ const executive = [
     avatar:'img/BW.svg',
     altAvatar: 'img/altAvatar/BW.png',
     position: "Men's Rep",
-    description: "Hail from the opposite side of the world. Benji came for a green card; he isn't going home any time soon."
+    description: "Hail from the upside-down land of Aus. Benji came for a green card; he isn't going home any time soon."
   },{
     name:'Tapiwa Samkange',
     avatar:'img/TS.svg',
@@ -78,23 +78,21 @@ const executive = [
 
 function ExecConstructor({name, avatar, altAvatar, position, description}) {
   return (
-  <div class="avatar" className={clsx('col col--4', styles.feature)}>
-    <div class="avatar">
-      <a class="avatar__photo-link avatar__photo avatar__photo--xl">
+  <div className={clsx('col col--4')}>
+    <div class="avatar avatar--vertical">
         <img
+          class="avatar__photo avatar__photo--xl"
           src={avatar ? avatar : altAvatar}
         />
-      </a>
       <div class="avatar__intro">
         <h4 class="avatar__name">{name}</h4>
         <strong class="avatar__subtitle">
           {position}
         </strong>
-        {/* <div className={clsx(styles.description, "avatar__subtitle")}> */}
         <small className={clsx(styles.description, "avatar__subtitle")}>
           {description}
         </small>
-        {/* </div> */}
+
         <br />
       </div>
     </div>
@@ -115,34 +113,32 @@ function Home() {
           <div className={styles.buttons}>
             <Link
               className={clsx(
-                `button button--outline button button--lg`,
                 styles.getConstitutional,
                 )}
               to={useBaseUrl('docs/')}>
-              GET CONSTITUTIONAL!
+                <img
+                height="35"
+                width="245"
+                src='img/get_constitutionalv1.svg' />
             </Link>
           </div>
         </div>
       </header>
       <main>
-      
-      <h1 className={clsx( styles.execBanner)}>{siteConfig.tagline}
+      <h1 className={clsx( styles.execBanner)}>
+        {siteConfig.tagline}
       </h1>
-
+      <section className={styles.features}>
         {executive && executive.length > 0 && (
-          <section className={styles.features}>
-            <div className="container">
-
-            <div className="container">
-            </div>
-              <div className="row">
+          <div class="container">
+              <div className={clsx( styles.execContainer,"row")}>
                 {executive.map((props, idx) => (
                   <ExecConstructor key={idx} {...props} />
                 ))}
               </div>
             </div>
-          </section>
         )}
+        </section>
       </main>
     </Layout>
   );
