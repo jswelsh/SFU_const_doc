@@ -1,6 +1,6 @@
 module.exports = {
   title: 'SFU Rugby',
-  tagline: 'Something something something SFU Rugby',
+  tagline: "Your totally constitutionally elected executive team!",
   url: 'https://test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -11,6 +11,7 @@ module.exports = {
   themeConfig: {
     navbar: {
       title: '',
+      style: 'primary',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',

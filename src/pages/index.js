@@ -37,59 +37,70 @@ const features = [
 const executive = [
   {
     name: 'Jessica Piotrowski',
-    image: 'img/JP.png',
+    avatar: 'img/JP.svg',
+    altAvatar: 'img/altAvatar/JP.png',
     position: 'Vice President',
-    description: 'Wears the pants in this exec',
+    description: 'Wears the pants in this exec.',
   },{
     name: 'Raylene Tate',
-    image:'img/RT.png',
+    avatar:'img/RT.svg',
+    altAvatar: 'img/altAvatar/RT.png',
     position: 'Social Coordinator',
-    description: 'Had pants, Jessica took them'
+    description: 'Had pants, Jessica took them.'
   },{
     name: 'James Welsh',
-    image:'img/JW.png',
+    avatar:'img/JW.svg',
+    altAvatar: 'img/altAvatar/JW.png',
     position: 'President',
-    description: 'Committed to building a Shadow-Exec'
+    description: 'Committed to building a Shadow-Exec.'
   },{
     name: 'Lewai Ratudradra',
-    image: 'img/LR.png',
+    avatar:'img/LR.svg',
+    altAvatar: 'img/altAvatar/LR.png',
     position: "Woman's Rep",
-    description: 'Neque porro quisquam est, qui dolorem'
+    description: 'Creative mastermind behind the sfu meme generator'
   },{
     name: 'Bethany Dueck',
-    image: 'img/BD.png',
+    avatar:'img/BD.svg',
+    altAvatar: 'img/altAvatar/BD.png',
     position: "Women's Fixtures",
-    description: 'illo inventore veritatis et quasi architecto'
+    description: 'literally terrifying on and off the field.'
   },{
     name:'Fernanda Hernández',
-    image: 'img/FH.png',
+    avatar:'img/FH.svg',
+    altAvatar: 'img/altAvatar/FH.png',
     position: 'Secretary',
-    description: 'unde omnis iste natus error'
+    description: 'Little does she know her role entails babysitting the president and making sure they do something; anything.'
   },{
     name:'Talor Mykle-Winkler',
-    image: 'img/TW.png',
+    avatar:'img/TW.svg',
+    altAvatar: 'img/altAvatar/TW.png',
     position: 'Treasurer',
-    description: '"Lorem ipsum dolor sit amet'
+    description: 'The first to ever be remotely qualified/competent to be treasurer.'
   },{
     name:'Tapiwa Samkange',
-    image: 'img/TS.png',
+    avatar:'img/TS.svg',
+    altAvatar: 'img/altAvatar/TS.png',
     position: "Men's Fixtures",
-    description: 'Ut enim ad minim veniam, quis nostrud'
+    description: 'Pretty sure he is only here for the free dues and good times.'
   },{
     name:'Benji Wilson',
-    image: 'img/BW.png',
+    avatar:'img/BW.svg',
+    altAvatar: 'img/altAvatar/BW.png',
     position: "Men's Rep",
-    description: 'ut aliquip ex ea commodo consequat'
+    description: "Hail from the opposite side of the world. Benji came for a green card; he isn't going home any time soon."
   },{
     name:'Liam Gottschalk',
-    image: 'img/LG.png',
+    avatar:'img/LG.svg',
+    altAvatar: 'img/altAvatar/LG.png',
     position: 'University Liaison',
-    description: 'exercitation ullamco laboris nisi'
+    description: 'To be honest, pretty sure he was forced into this position. Is this considered child labour'
   },{
     name:'Lumpy Lucas',
-    image: 'img/LL.png',
+    avatar: 'img/LL.svg',
+    altAvatar: 'img/altAvatar/LL.png',
     position: 'Past President',
-    description: 'Lumpy'
+    description: 'Lumpy.'
   }
 
 
@@ -110,14 +121,13 @@ function Feature({imageUrl, title, description}) {
   );
 }
 
-function ExecConstructor({name, image, position, description}) {
+function ExecConstructor({name, avatar, altAvatar, position, description}) {
   return (
   <div class="avatar" className={clsx('col col--4', styles.feature)}>
     <div class="avatar">
-      <a class="avatar__photo-link avatar__photo avatar__photo--lg">
+      <a class="avatar__photo-link avatar__photo avatar__photo--xl">
         <img
-          alt={name.slice(0,1)}
-          src={image}
+          src={avatar ? avatar : altAvatar}
         />
       </a>
       <div class="avatar__intro">
@@ -146,14 +156,13 @@ function Home() {
       description="web application for SFU Rugby's constitution and policies">
       <header className={clsx(/* 'hero hero--primary', */ styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <img src='img/sfu_athletic_logo_vertical_v1.1.svg'/>
           <div className={styles.buttons}>
             <Link
               className={clsx(
-                `button button--outline button--${true && 'secondary'} button--lg`,
-                styles.getStarted,
-              )}
+                `button button--outline button button--lg`,
+                styles.getConstitutional,
+                )}
               to={useBaseUrl('docs/')}>
               GET CONSTITUTIONAL!
             </Link>
@@ -161,9 +170,16 @@ function Home() {
         </div>
       </header>
       <main>
+      
+      <h1 className={clsx( styles.execBanner)}>{siteConfig.tagline}
+      </h1>
+
         {executive && executive.length > 0 && (
           <section className={styles.features}>
             <div className="container">
+
+            <div className="container">
+            </div>
               <div className="row">
                 {executive.map((props, idx) => (
                   <ExecConstructor key={idx} {...props} />
