@@ -23,6 +23,9 @@
     padding: 2rem;
   }
 }
+.description {
+  width: 236px
+}
 
 .buttons {
   display: flex;

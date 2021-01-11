@@ -90,9 +90,11 @@ function ExecConstructor({name, avatar, altAvatar, position, description}) {
         <strong class="avatar__subtitle">
           {position}
         </strong>
-        <small class="avatar__subtitle">
+        {/* <div className={clsx(styles.description, "avatar__subtitle")}> */}
+        <small className={clsx(styles.description, "avatar__subtitle")}>
           {description}
         </small>
+        {/* </div> */}
         <br />
       </div>
     </div>

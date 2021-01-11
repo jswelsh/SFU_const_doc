@@ -12,13 +12,14 @@ module.exports = {
       'bylaws/repPlayers'],
     "Executive Positions": [
       'positions/president',
-      'positions/vicePresident',
       'positions/secretary',
       'positions/treasurer',
       'positions/socialCoordinator',
-      'positions/universityLiaison',
       'positions/reps',
       'positions/fixtures',
+      'positions/universityLiaison',
+      'positions/vicePresident',
+      'positions/pastPresident',
     ]
   },
 };

@@ -4,7 +4,7 @@ title: Team Fixtures
 sidebar_label: Team Fixtures
 ---
 ***
-peak time commitment: 7 hours a week
+peak time commitment: 8 hours a week
 
 ## Functional Objective:
 - To develop a successful rugby team(s)
@@ -66,3 +66,4 @@ peak time commitment: 7 hours a week
 - Perform end-of-season surveys with players.
 
 ### To succeed in this role:
+needs work

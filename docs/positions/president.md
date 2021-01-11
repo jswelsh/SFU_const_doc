@@ -13,7 +13,7 @@ peak time commitment: 5-12 hours a week
 - Have a good understanding of the club constitution, rules and procedures and duties of all office-holders.
 - Manage the club Annual General Meeting, ensuring reports, awards and procedures are completed in the correct manner.
 - Ensure a realistic budget and strategic plan are drawn up, implemented and followed through by the committee, the club’s volunteers and paid employees.
-- Support and help all co-ordinators.
+- Support and help all coordinators.
 - Monitor paid employees on a regular basis, ensuring that they have up-to-date job descriptions and employment contracts, and are given annual salary and performance reviews.
 
 - Be innovative in re-energising the club.
