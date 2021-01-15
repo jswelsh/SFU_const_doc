@@ -41,4 +41,6 @@ The University Liaison is responsible for ensuring SFU policies and guidelines a
 - Coordinate deadline with SFU and Executive.
 
 ### To succeed in this role:
-**needs work**
+:::caution
+sorry, this section is under-construction, give it some time
+:::

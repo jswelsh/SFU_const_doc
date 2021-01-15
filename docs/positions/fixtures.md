@@ -66,4 +66,6 @@ peak time commitment: 8 hours a week
 - Perform end-of-season surveys with players.
 
 ### To succeed in this role:
-needs work
+:::caution
+sorry, this section is under-construction, give it some time
+:::
